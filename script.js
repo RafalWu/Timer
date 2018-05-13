@@ -1,8 +1,10 @@
 
-class Stopwatch {
-    constructor(display) {
-        this.running = false;
-        this.display = display;
+class Stopwatch extends = React.createClass {
+    constructor(props) {
+		super(props);
+		this.state = {
+			running: false;
+			display: display;
         this.reset();
         this.print(this.times);
     }
